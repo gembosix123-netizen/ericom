@@ -1,0 +1,161 @@
+
+
+<ericom.html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ericom - Premium Streetwear</title>
+  <style>
+    /* Reset basic */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #fff;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #e94e77;
+    }
+    .banner {
+      background: url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 0 10px rgba(0,0,0,0.7);
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .products {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      background: #fff;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+    .product-card img {
+      width: 100%;
+      display: block;
+    }
+    .product-info {
+      padding: 1rem;
+      text-align: center;
+    }
+    .product-info h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .product-info p {
+      color: #e94e77;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    footer {
+      background: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .banner {
+        font-size: 1.8rem;
+        height: 300px;
+        padding: 0 1rem;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ERICOM</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="banner">
+  Premium Streetwear for Every Style
+</div>
+
+<section class="products">
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1521334884684-d80222895322?auto=format&fit=crop&w=600&q=80" alt="Ericom T-Shirt 1" />
+    <div class="product-info">
+      <h3>Ericom Classic Tee</h3>
+      <p>RM89.00</p>
+    </div>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" alt="Ericom Hoodie" />
+    <div class="product-info">
+      <h3>Ericom Hoodie</h3>
+      <p>RM149.00</p>
+    </div>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=600&q=80" alt="Ericom Jacket" />
+    <div class="product-info">
+      <h3>Ericom Windbreaker</h3>
+      <p>RM199.00</p>
+    </div>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" alt="Ericom Cap" />
+    <div class="product-info">
+      <h3>Ericom Cap</h3>
+      <p>RM49.00</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Ericom. All rights reserved.
+</footer>
+
+</body>
+</html>
